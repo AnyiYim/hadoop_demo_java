@@ -1,4 +1,4 @@
-package com.mapreduce.hadoop;
+package com.mapreduce.wordcount;
 
 import java.io.File;
 

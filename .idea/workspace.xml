@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c564f4d8-20c6-4c7e-bdb6-f6c79e8e6d71" name="Default Changelist" comment="" />
+    <list default="true" id="c564f4d8-20c6-4c7e-bdb6-f6c79e8e6d71" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Reducer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Main.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Mapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Reducer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/FileUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/wordcount/FileUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/WordCount.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/wordcount/WordCount.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/hadoop/FileUtil.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/hadoop/WordCount$IntSumReduce.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/hadoop/WordCount$TokenizerMapper.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/hadoop/WordCount.class" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,20 +30,23 @@
     <session id="-123170262">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
           <entry key="project.open.time.5" value="1" />
           <entry key="project.opened" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="62" />
+          <entry key="dummy" value="1" />
+          <entry key="java" value="2363" />
           <entry key="properties" value="1" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="62" />
+          <entry key="JAVA" value="2363" />
+          <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -35,7 +54,7 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="3" />
+          <entry key="java" value="14" />
           <entry key="part-r-00000" value="1" />
           <entry key="properties" value="1" />
           <entry key="txt" value="1" />
@@ -44,7 +63,7 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="3" />
+          <entry key="JAVA" value="14" />
           <entry key="PLAIN_TEXT" value="2" />
           <entry key="Properties" value="1" />
         </counts>
@@ -54,28 +73,23 @@
   <component name="FileEditorManager">
     <leaf>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Mapper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="725">
-              <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+            <state relative-caret-position="405">
+              <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#499#507#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="174">
-              <caret line="6" column="98" selection-start-line="6" selection-start-column="98" selection-end-line="6" selection-end-column="98" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/WordCount.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="567">
-              <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+            <state relative-caret-position="42">
+              <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -83,11 +97,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/FileUtil.java">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Main.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="54">
-              <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+            <state relative-caret-position="1769">
+              <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -101,6 +118,9 @@
       </list>
     </option>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -108,6 +128,14 @@
         <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/FileUtil.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/WordCount.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/Step1Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/Step1Reducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/Step1Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Mapper.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Reducer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Main.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Mapper.java" />
       </list>
     </option>
   </component>
@@ -118,11 +146,12 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="639" />
-    <option name="y" value="114" />
-    <option name="width" value="886" />
+    <option name="x" value="964" />
+    <option name="y" value="80" />
+    <option name="width" value="909" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -160,7 +189,7 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hadoop" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -195,13 +224,13 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapreduce.hadoop.WordCount" />
+  <component name="RunManager" selected="Application.Step2Main">
+    <configuration name="Step1Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapreduce.matrix_step1.Step1Main" />
       <module name="mymapreduce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mapreduce.hadoop.*" />
+          <option name="PATTERN" value="com.mapreduce.matrix_step1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -209,8 +238,41 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Step2Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapreduce.matrix_step2.Step2Main" />
+      <module name="mymapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mapreduce.matrix_step2.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WordCount" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapreduce.wordcount.WordCount" />
+      <module name="mymapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mapreduce.matrix_step1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.WordCount" />
+      <item itemvalue="Application.Step1Main" />
+      <item itemvalue="Application.Step2Main" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Step2Main" />
+        <item itemvalue="Application.Step1Main" />
         <item itemvalue="Application.WordCount" />
       </list>
     </recent_temporary>
@@ -225,31 +287,30 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1544727773711</updated>
-      <workItem from="1544727778244" duration="3110000" />
+      <workItem from="1544727778244" duration="12786000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="3110000" />
+    <option name="totallyTimeSpent" value="12786000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-6" width="1920" height="1086" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="Designer" />
       <window_info id="UI Designer" />
       <window_info id="Favorites" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.19903949" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.16862327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Messages" weight="0.32984293" />
+      <window_info anchor="bottom" id="Messages" weight="0.3277311" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
       <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Java Enterprise" />
-      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Java Enterprise" weight="0.32983193" />
+      <window_info anchor="bottom" id="Terminal" weight="0.32983193" />
       <window_info anchor="bottom" id="Event Log" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.75602096" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.5819328" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -312,7 +373,7 @@
     <entry file="file://$PROJECT_DIR$/input/text.txt">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/FileUtil.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/wordcount/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
           <caret line="22" column="5" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
@@ -333,10 +394,71 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/hadoop/WordCount.java">
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/wordcount/WordCount.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="567">
+        <state relative-caret-position="2117">
           <caret line="73" column="18" selection-start-line="73" selection-start-column="18" selection-end-line="73" selection-end-column="18" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" lean-forward="true" selection-start-column="13" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="551">
+          <caret line="19" column="25" selection-start-line="19" selection-start-column="25" selection-end-line="19" selection-end-column="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Reducer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="783">
+          <caret line="27" lean-forward="true" selection-start-line="27" selection-end-line="27" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Mapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="405">
+          <caret line="24" column="51" selection-start-line="24" selection-start-column="51" selection-end-line="24" selection-end-column="51" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#499#507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="42">
+          <caret line="17" column="63" selection-start-line="17" selection-start-column="63" selection-end-line="17" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1769">
+          <caret line="61" column="14" selection-start-line="61" selection-start-column="14" selection-end-line="61" selection-end-column="14" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
