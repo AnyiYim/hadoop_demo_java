@@ -1,85 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="c564f4d8-20c6-4c7e-bdb6-f6c79e8e6d71" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/job/JobRunner.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step1/Main1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step1/Mapper1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step1/Reducer1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step2/Main2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step2/Mapper2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step2/Reducer2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step3/Main3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step3/Mapper3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step3/Reducer3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step4/Main4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step4/Mapper4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step4/Reducer4.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step5/Main5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step5/Mapper5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step5/Reducer5.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/job/JobRunner.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step1/Main1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step1/Mapper1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step1/Reducer1.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step2/Main2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step2/Mapper2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step2/Reducer2.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step3/Main3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step3/Mapper3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step3/Reducer3.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step4/Main4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step4/Mapper4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step4/Reducer4.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step5/Main5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step5/Mapper5.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/userCF/step5/Reducer5.class" afterDir="false" />
+    <list default="true" id="c564f4d8-20c6-4c7e-bdb6-f6c79e8e6d71" name="Default Changelist" comment="基于用户相似度推荐算法实现">
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Main1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Mapper1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Reducer1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Main2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Mapper2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Reducer2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Main3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Mapper3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Reducer3.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_job/JobRunner.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/job/JobRunner.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step1/Main1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step1/Main1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step1/Mapper1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step1/Mapper1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step1/Reducer1.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step1/Reducer1.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step2/Main2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step2/Main2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step2/Mapper2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step2/Mapper2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step2/Reducer2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step2/Reducer2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step3/Main3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step3/Main3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step3/Mapper3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step3/Mapper3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step3/Reducer3.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step3/Reducer3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step4/Main4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step4/Main4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step4/Mapper4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step4/Mapper4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step4/Reducer4.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step4/Reducer4.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step5/Main5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step5/Main5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step5/Mapper5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step5/Mapper5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step5/Reducer5.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF/step5/Reducer5.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix/step1/Step1Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix/step1/Step1Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step1/Step1Reducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix/step1/Step1Reducer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix/step2/Step2Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Mapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix/step2/Step2Mapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix_step2/Step2Reducer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/mapreduce/matrix/step2/Step2Reducer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/log4j.properties" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_job/JobRunner.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/job/JobRunner.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step1/Main1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step1/Main1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step1/Mapper1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step1/Mapper1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step1/Reducer1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step1/Reducer1.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step2/Main2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step2/Main2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step2/Mapper2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step2/Mapper2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step2/Reducer2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step2/Reducer2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step3/Main3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step3/Main3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step3/Mapper3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step3/Mapper3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step3/Reducer3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step3/Reducer3.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step4/Main4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step4/Main4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step4/Mapper4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step4/Mapper4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step4/Reducer4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step4/Reducer4.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step5/Main5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step5/Main5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step5/Mapper5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step5/Mapper5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF_step5/Reducer5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/itemCF/step5/Reducer5.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix_step1/Step1Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix/step1/Step1Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix_step1/Step1Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix/step1/Step1Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix_step1/Step1Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix/step1/Step1Reducer.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix_step2/Step2Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix/step2/Step2Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix_step2/Step2Mapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix/step2/Step2Mapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix_step2/Step2Reducer.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/mapreduce/matrix/step2/Step2Reducer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/log4j.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/log4j.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -103,16 +36,17 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="13" />
-          <entry key="java" value="3965" />
+          <entry key="dummy" value="23" />
+          <entry key="java" value="4077" />
           <entry key="properties" value="1" />
+          <entry key="txt" value="21" />
           <entry key="xml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="3965" />
-          <entry key="PLAIN_TEXT" value="13" />
+          <entry key="JAVA" value="4077" />
+          <entry key="PLAIN_TEXT" value="44" />
           <entry key="Properties" value="1" />
           <entry key="XML" value="3" />
         </counts>
@@ -120,18 +54,18 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="class" value="1" />
-          <entry key="java" value="70" />
+          <entry key="java" value="79" />
           <entry key="part-r-00000" value="1" />
-          <entry key="properties" value="3" />
+          <entry key="properties" value="4" />
           <entry key="txt" value="1" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CLASS" value="1" />
-          <entry key="JAVA" value="70" />
+          <entry key="JAVA" value="79" />
           <entry key="PLAIN_TEXT" value="2" />
-          <entry key="Properties" value="3" />
+          <entry key="Properties" value="4" />
         </counts>
       </usages-collector>
     </session>
@@ -139,57 +73,84 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step4/Main4.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Reducer1.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Main1.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+            <state relative-caret-position="200">
+              <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step5/Main5.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Mapper2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="116">
-              <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step5/Mapper5.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="68" column="47" selection-start-line="68" selection-start-column="47" selection-end-line="68" selection-end-column="47" />
+            <state relative-caret-position="171">
+              <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/job/JobRunner.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Mapper3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Main3.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="564">
+              <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Reducer3.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="116">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step2/Main2.java">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Reducer2.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Main2.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="203">
-              <caret line="17" column="40" selection-start-line="17" selection-start-column="40" selection-end-line="17" selection-end-column="40" />
+            <state relative-caret-position="593">
+              <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step3/Main3.java">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="29">
-              <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
+            <state>
+              <caret selection-end-line="6" selection-end-column="99" />
             </state>
           </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Mapper1.java">
+          <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
     </leaf>
@@ -243,9 +204,19 @@
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step3/Main3.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step1/Mapper1.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step1/Main1.java" />
-        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step2/Main2.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step5/Mapper5.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Mapper3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Mapper1.java" />
+        <option value="$PROJECT_DIR$/src/main/resources/log4j.properties" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Main1.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Main4.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Main2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Mapper2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Reducer2.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Reducer3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Main3.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Mapper3.java" />
       </list>
     </option>
   </component>
@@ -256,9 +227,10 @@
     <sorting>DEFINITION_ORDER</sorting>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="y" value="-6" />
-    <option name="width" value="1920" />
-    <option name="height" value="1086" />
+    <option name="x" value="589" />
+    <option name="y" value="158" />
+    <option name="width" value="1054" />
+    <option name="height" value="958" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -306,7 +278,7 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="userCF" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mapreduce" type="b2602c69:ProjectViewProjectNode" />
@@ -315,8 +287,57 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
-              <item name="userCF" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="step1" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mymapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
               <item name="step2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mymapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="content" type="462c0819:PsiDirectoryNode" />
+              <item name="step3" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mymapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="itemCF" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mymapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="itemCF" type="462c0819:PsiDirectoryNode" />
+              <item name="step2" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="mapreduce" type="b2602c69:ProjectViewProjectNode" />
+              <item name="mymapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="mapreduce" type="462c0819:PsiDirectoryNode" />
+              <item name="itemCF" type="462c0819:PsiDirectoryNode" />
+              <item name="step4" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="mapreduce" type="b2602c69:ProjectViewProjectNode" />
@@ -348,11 +369,11 @@
       <recent name="com.mapreduce.itemCF_step1" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2" />
+      <recent name="$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1" />
       <recent name="$PROJECT_DIR$/src/main/java/com/mapreduce/userCF" />
       <recent name="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step5" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step4" />
-      <recent name="$PROJECT_DIR$/src/main/java/com/mapreduce/itemCF_step3" />
-      <recent name="$PROJECT_DIR$/input" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,7 +388,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.JobRunner">
+  <component name="RunManager" selected="Application.Main3">
     <configuration name="JobRunner" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.mapreduce.userCF.job.JobRunner" />
       <module name="mymapreduce" />
@@ -381,12 +402,25 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapreduce.userCF.step2.Main2" />
+    <configuration name="Main1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapreduce.content.step1.Main1" />
       <module name="mymapreduce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mapreduce.userCF.step2.*" />
+          <option name="PATTERN" value="com.mapreduce.content.step1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.mapreduce.content.step2.Main2" />
+      <module name="mymapreduce" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.mapreduce.content.step2.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -395,24 +429,11 @@
       </method>
     </configuration>
     <configuration name="Main3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapreduce.userCF.step3.Main3" />
+      <option name="MAIN_CLASS_NAME" value="com.mapreduce.content.step3.Main3" />
       <module name="mymapreduce" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.mapreduce.userCF.step3.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Main4" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.mapreduce.userCF.step4.Main4" />
-      <module name="mymapreduce" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.mapreduce.userCF.step4.*" />
+          <option name="PATTERN" value="com.mapreduce.content.step3.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -434,19 +455,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main2" />
-      <item itemvalue="Application.Main3" />
-      <item itemvalue="Application.Main4" />
       <item itemvalue="Application.Main5" />
       <item itemvalue="Application.JobRunner" />
+      <item itemvalue="Application.Main1" />
+      <item itemvalue="Application.Main2" />
+      <item itemvalue="Application.Main3" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.JobRunner" />
-        <item itemvalue="Application.Main5" />
-        <item itemvalue="Application.Main4" />
         <item itemvalue="Application.Main3" />
         <item itemvalue="Application.Main2" />
+        <item itemvalue="Application.Main1" />
+        <item itemvalue="Application.JobRunner" />
+        <item itemvalue="Application.Main5" />
       </list>
     </recent_temporary>
   </component>
@@ -462,12 +483,20 @@
       <updated>1544727773711</updated>
       <workItem from="1544727778244" duration="12786000" />
       <workItem from="1544807310082" duration="9094000" />
-      <workItem from="1544868717209" duration="3109000" />
+      <workItem from="1544868717209" duration="6063000" />
     </task>
+    <task id="LOCAL-00001" summary="基于用户相似度推荐算法实现">
+      <created>1544872284218</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1544872284219</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="24989000" />
+    <option name="totallyTimeSpent" value="27943000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -480,11 +509,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="-6" width="1920" height="1086" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Designer" order="0" />
       <window_info id="UI Designer" order="1" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info content_ui="combo" id="Project" order="3" weight="0.2638889" />
+      <window_info content_ui="combo" id="Project" order="3" visible="true" weight="0.14194237" />
       <window_info id="Structure" order="4" side_tool="true" weight="0.25" />
       <window_info anchor="bottom" id="Version Control" order="0" show_stripe_button="false" />
       <window_info anchor="bottom" id="Message" order="1" />
@@ -494,9 +524,9 @@
       <window_info anchor="bottom" id="Find" order="5" />
       <window_info anchor="bottom" id="Database Changes" order="6" show_stripe_button="false" />
       <window_info anchor="bottom" id="Inspection" order="7" weight="0.4" />
-      <window_info active="true" anchor="bottom" id="Run" order="8" visible="true" weight="0.44012606" />
+      <window_info anchor="bottom" id="Run" order="8" weight="0.6617647" />
       <window_info anchor="bottom" id="Debug" order="9" weight="0.4" />
-      <window_info anchor="bottom" id="Messages" order="10" weight="0.32241812" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.32037815" />
       <window_info anchor="bottom" id="TODO" order="11" weight="0.32878152" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" weight="0.32983193" />
       <window_info anchor="right" id="Palette" order="0" />
@@ -514,17 +544,11 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="基于用户相似度推荐算法实现" />
+    <option name="LAST_COMMIT_MESSAGE" value="基于用户相似度推荐算法实现" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="725">
-          <caret line="25" column="48" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/input/text.txt">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/wordcount/FileUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="54">
@@ -759,13 +783,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret selection-start-column="1" selection-end-line="6" selection-end-column="100" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/step3/Reducer3.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="116">
@@ -854,8 +871,69 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/userCF/job/JobRunner.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="116">
+        <state relative-caret-position="29">
           <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Reducer1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Mapper1.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret selection-end-line="6" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step1/Main1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="18" column="22" lean-forward="true" selection-start-line="18" selection-start-column="22" selection-end-line="18" selection-end-column="22" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Reducer2.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Mapper2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="29" column="27" lean-forward="true" selection-start-line="29" selection-start-column="27" selection-end-line="29" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step2/Main2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="593">
+          <caret line="72" column="9" lean-forward="true" selection-start-line="72" selection-start-column="9" selection-end-line="72" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Main3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="71" column="37" selection-start-line="71" selection-start-column="37" selection-end-line="71" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Reducer3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="116">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/mapreduce/content/step3/Mapper3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="564">
+          <caret line="96" column="36" selection-start-line="96" selection-start-column="36" selection-end-line="96" selection-end-column="36" />
         </state>
       </provider>
     </entry>
